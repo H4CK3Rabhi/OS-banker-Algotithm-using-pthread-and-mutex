@@ -1,6 +1,9 @@
 # OS-banker-Algotithm-using-pthread-and-mutex
 
-Implimentation of banker's algorithm. OS project from LPU Banker's Algorithm The banker’s algorithm is a resource allocation and deadlock avoidance algorithm that tests for safety by simulating the allocation for predetermined maximum possible amounts of all resources, then makes an “s-state” check to test for possible activities, before deciding whether allocation should be allowed to continue. Following Data structures are used to implement the Banker’s Algorithm: Let ‘n’ be the number of processes in the system and ‘m’ be the number of resources types.
+Implimentation of banker's algorithm. OS project .
+
+
+The banker’s algorithm is a resource allocation and deadlock avoidance algorithm that tests for safety by simulating the allocation for predetermined maximum possible amounts of all resources, then makes an “s-state” check to test for possible activities, before deciding whether allocation should be allowed to continue. Following Data structures are used to implement the Banker’s Algorithm: Let ‘n’ be the number of processes in the system and ‘m’ be the number of resources types.
 
 # Available
 It is a 1-d array of size ‘m’ indicating the number of available resources of each type. 	Available[ j ] = k means there are ‘k’ instances of resource type Rj
